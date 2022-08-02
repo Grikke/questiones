@@ -1,0 +1,19 @@
+.response-button {
+  cursor: pointer;
+  width: 250px;
+  display: block;
+  margin: auto;
+  height: 35px;
+  background-size: 100% 100%;
+  transition: .25s all linear;
+  border-radius: 10px;
+  border: .5px solid black;
+  &.green {
+    background-image: linear-gradient(#079732, #83df80 80%);
+    background-position: 0% 80%;
+    &:hover {
+      background-position: 0% 122%;
+    }
+  }
+
+}

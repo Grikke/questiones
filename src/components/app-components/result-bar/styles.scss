@@ -1,0 +1,13 @@
+.result-bar {
+  width: 100px;
+  height: 10px;
+  display: inline-flex;
+  border: 1px solid black;
+  border-radius: 25px;
+  & > div:first-child {
+    border-radius: 25px 0px 0px 25px;
+  }
+  & > div:last-child {
+    border-radius: 0 25px 25px 0;
+  }
+}
